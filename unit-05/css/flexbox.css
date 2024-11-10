@@ -1,0 +1,42 @@
+ body {
+    margin: 0;
+    padding: 0;
+ }
+ .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    margin: 0%;
+    align-items: center;
+    width: 100%;
+    
+
+ /*
+ Flexbox - axes
+flex-direction: column | row ;
+
+Flexbox - flex-wrap
+flex-wrap: wrap | nowrap| wrap-reverse;
+
+Flexbox - align-self
+#classname { align-self: flex-start | flex-end | center | stretch }
+
+Flexbox - justify-content
+justify-content: flex-start | flex-end | center | space-between | space-around
+*/
+}
+
+
+.box_logo {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+.menu {
+    color: grey;
+    margin-right: 100px;
+}

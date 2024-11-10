@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+}
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    background-color:aqua;
+
+/*
+To keep number same number of columnds no matter the size of the screen
+grid-template-columns: repeat(3, 1fr);
+*/
+
+}
+
+.Box {
+    background-color: blueviolet;
+    color: aqua;
+    padding: 20px;
+    font-size: 150%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 450px){
+    .container-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
